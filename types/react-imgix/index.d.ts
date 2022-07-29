@@ -221,10 +221,10 @@ interface AttributeConfig {
 }
 
 interface SrcSetParams {
-    widths: number[];
-    widthTolerance: number;
-    minWidth: number;
-    maxWidth: number;
+    widths?: number[];
+    widthTolerance?: number;
+    minWidth?: number;
+    maxWidth?: number;
 }
 
 type ImgixHTMLAttributes =
